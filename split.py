@@ -3,21 +3,16 @@ import random
 import shutil
 from pathlib import Path
 
-# -------------------------------
-# User-defined paths
-# -------------------------------
 train_img_path = Path(r"C:\Users\Mahin\Desktop\yolo_images\data\images\train")
 train_lbl_path = Path(r"C:\Users\Mahin\Desktop\yolo_images\data\labels\train")
 val_img_path = Path(r"C:\Users\Mahin\Desktop\yolo_images\data\images\val")
 val_lbl_path = Path(r"C:\Users\Mahin\Desktop\yolo_images\data\labels\val")
 
 # Percentage for training set
-train_pct = 0.9
+train_pct = 0.7
 val_pct = 1 - train_pct
 
-# -------------------------------
-# Create validation folders if they don't exist
-# -------------------------------
+
 for path in [val_img_path, val_lbl_path]:
     path.mkdir(parents=True, exist_ok=True)
 
