@@ -1,0 +1,12 @@
+chin
+face
+forehead
+jawline
+left_ear
+left_eye
+left_eyebrow
+mouth
+nose
+right_ear
+right_eye
+right_eyebrow

@@ -3,9 +3,9 @@ import os
 from PIL import Image
 
 # Paths
-json_path = "/Users/mahin/Downloads/facial_keypoints/all_data.json"     # your JSON file
-images_dir = "/Users/mahin/Downloads/facial_keypoints/images"            # folder with .png images
-labels_dir = "/Users/mahin/Downloads/facial_keypoints/labels"            # where to save YOLO .txt files
+json_path = "facial_keypoints/all_data.json"     # your JSON file
+images_dir = "facial_keypoints/images"            # folder with .png images
+labels_dir = "facial_keypoints/labels"            # where to save YOLO .txt files
 os.makedirs(labels_dir, exist_ok=True)
 
 # Load JSON

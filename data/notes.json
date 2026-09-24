@@ -1,0 +1,57 @@
+{
+  "categories": [
+    {
+      "id": 0,
+      "name": "chin"
+    },
+    {
+      "id": 1,
+      "name": "face"
+    },
+    {
+      "id": 2,
+      "name": "forehead"
+    },
+    {
+      "id": 3,
+      "name": "jawline"
+    },
+    {
+      "id": 4,
+      "name": "left_ear"
+    },
+    {
+      "id": 5,
+      "name": "left_eye"
+    },
+    {
+      "id": 6,
+      "name": "left_eyebrow"
+    },
+    {
+      "id": 7,
+      "name": "mouth"
+    },
+    {
+      "id": 8,
+      "name": "nose"
+    },
+    {
+      "id": 9,
+      "name": "right_ear"
+    },
+    {
+      "id": 10,
+      "name": "right_eye"
+    },
+    {
+      "id": 11,
+      "name": "right_eyebrow"
+    }
+  ],
+  "info": {
+    "year": 2025,
+    "version": "1.0",
+    "contributor": "Label Studio"
+  }
+}

@@ -3,10 +3,10 @@ import random
 import shutil
 from pathlib import Path
 
-train_img_path = Path(r"C:\Users\Mahin\Desktop\yolo_images\data\images\train")
-train_lbl_path = Path(r"C:\Users\Mahin\Desktop\yolo_images\data\labels\train")
-val_img_path = Path(r"C:\Users\Mahin\Desktop\yolo_images\data\images\val")
-val_lbl_path = Path(r"C:\Users\Mahin\Desktop\yolo_images\data\labels\val")
+train_img_path = Path(r"data\images\train") #zipped
+train_lbl_path = Path(r"data\labels\train") #zipped 
+val_img_path = Path(r"data\images\val") #zipped
+val_lbl_path = Path(r"data\labels\val") #zipped
 
 # Percentage for training set
 train_pct = 0.7
